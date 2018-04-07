@@ -29,7 +29,7 @@ const points = new Audio;
 fly.src = "sounds/fly.mp3";
 points.src = "sounds/score.mp3";
 
-document.addEventListener("keydown", moveUp);
+//document.addEventListener("keydown", moveUp);
 document.addEventListener("touch", moveUp);
 document.addEventListener("click", moveUp);
 
